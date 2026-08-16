@@ -1,0 +1,16 @@
+﻿- type: entity
+  parent: BaseItem
+  id: KnockOffBikeHorn
+  name: bike horn
+  description: A horn off of a bicycle?
+  components:
+    - type: Sprite
+      sprite: Objects/Fun/bikehorn.rsi
+      state: icon
+    - type: Item
+      sprite: Objects/Fun/bikehorn.rsi
+      size: Tiny
+    - type: PlaySoundOnUse
+      sound:
+
+
