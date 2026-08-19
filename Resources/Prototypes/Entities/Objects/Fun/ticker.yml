@@ -1,0 +1,15 @@
+- type: entity
+  parent: BaseItem
+  id: Ticker
+  name: ticker
+  description: Tick, tick, tick.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/ticker.rsi
+    state: icon
+  - type: UseDelay
+    delay: 0.1
+#  - type: ItemToggleActiveSound
+#    activesound:
+#      path: /Audio/Items/pistol_cock.ogg
+
